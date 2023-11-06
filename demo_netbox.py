@@ -7,8 +7,8 @@ api_token = "b1c3507e0f204a16fdd6798deec06ca6a106b8d4"
 
 # Define the site data
 site_data = {
-    "name": "Zaman",
-    "slug": "Zaman",
+    "name": "Zaman2",
+    "slug": "Zaman2",
     "status": "active",  # You can specify other status values like "planned" or "retired"
 
 }
