@@ -24,3 +24,8 @@ steps:
     python -m pip install --upgrade pip
     pip install -r requirement.txt
   displayName: 'Install dependencies'
+
+- script: |
+    # Add your additional script here
+    python demo_netbox.py
+  displayName: 'Additional Script Line'
