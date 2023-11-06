@@ -20,7 +20,12 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
+  # - script: |
+  #     python -m pip install --upgrade pip
+  #     pip install -r requirement.txt
+  #   displayName: 'Install dependencies'
+
 - script: |
-    python -m pip install --upgrade pip
-    pip install -r requirement.txt
-  displayName: 'Install dependencies'
+    # Add your additional script here
+    python demo_netbox.py
+  displayName: 'Additional Script Line'
